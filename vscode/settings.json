@@ -66,7 +66,9 @@
     "<C-v>": false,
     "<C-x>": false,
     "<C-c>": false,
-    "<C-z>": false
+    "<C-z>": false,
+    "<C-w>": false,
+    "<C-t>": false
   },
-  "git.openRepositoryInParentFolders": "never",
+  "git.openRepositoryInParentFolders": "never"
 }
