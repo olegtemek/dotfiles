@@ -1,6 +1,11 @@
 // Place your key bindings in this file to override the defaults
 [
   {
+    "key": "space g e",
+    "command": "editor.action.marker.next",
+    "when": "vim.mode == 'Normal' && editorFocus"
+  },
+  {
     "key": "space g b",
     "command": "workbench.action.navigateBack",
     "when": "vim.mode == 'Normal' && editorTextFocus"
