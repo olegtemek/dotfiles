@@ -39,7 +39,7 @@
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorStyleInactive": "none",
   "yaml.format.enable": false,
-  "editor.fontFamily": "Hack Nerd Font",
+  "editor.fontFamily": "JetBrains Mono",
   "workbench.activityBar.location": "top",
   "editor.accessibilitySupport": "off",
   "explorer.compactFolders": false,
