@@ -11,7 +11,6 @@
   "workbench.editor.showTabs": "multiple",
   "editor.semanticHighlighting.enabled": true,
   "editor.cursorSmoothCaretAnimation": "on",
-  "editor.fontLigatures": true,
   "editor.cursorBlinking": "phase",
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "none",
@@ -40,6 +39,7 @@
   "terminal.integrated.cursorStyleInactive": "none",
   "yaml.format.enable": false,
   "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": false,
   "workbench.activityBar.location": "top",
   "editor.accessibilitySupport": "off",
   "explorer.compactFolders": false,
@@ -69,4 +69,7 @@
     "<C-w>": false,
     "<C-t>": false
   },
+  "vscode_custom_css.imports": [
+    "file://${userHome}/.config/vscode/custom-style.css"
+  ]
 }
