@@ -52,7 +52,6 @@
     "asvetliakov.vscode-neovim": 1
   },
   "workbench.colorTheme": "lucy",
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
   // VIM
   "vim.leader": "<space>",
   "vim.easymotion": true,
@@ -70,5 +69,4 @@
     "<C-w>": false,
     "<C-t>": false
   },
-  "git.openRepositoryInParentFolders": "never"
 }

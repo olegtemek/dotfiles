@@ -1,0 +1,8 @@
+[window]
+opacity = 0.95
+padding.x = 4
+padding.y = 4
+
+[font]
+normal.family="JetBrainsMono NF"
+size = 16
