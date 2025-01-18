@@ -68,8 +68,5 @@
     "<C-z>": false,
     "<C-w>": false,
     "<C-t>": false
-  },
-  "vscode_custom_css.imports": [
-    "file://${userHome}/.config/vscode/custom-style.css"
-  ]
+  }
 }
