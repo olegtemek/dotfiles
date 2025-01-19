@@ -1,6 +1,7 @@
 {
   // GENERAL SETTINGS
   "editor.lineNumbers": "relative",
+  "workbench.colorTheme": "oh-lucy",
   "editor.tabSize": 2,
   "editor.fontSize": 12,
   "window.commandCenter": false,
@@ -68,5 +69,26 @@
     "<C-w>": false,
     "<C-t>": false
   },
-  "workbench.colorTheme": "oh-lucy"
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "<leader>",
+        "e"
+      ],
+      "commands": [
+        "workbench.view.explorer"
+      ]
+    }
+  ],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ]
 }
