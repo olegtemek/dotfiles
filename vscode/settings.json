@@ -51,7 +51,6 @@
     "vscodevim.vim": 1,
     "asvetliakov.vscode-neovim": 1
   },
-  "workbench.colorTheme": "lucy",
   // VIM
   "vim.leader": "<space>",
   "vim.easymotion": true,
@@ -68,5 +67,6 @@
     "<C-z>": false,
     "<C-w>": false,
     "<C-t>": false
-  }
+  },
+  "workbench.colorTheme": "oh-lucy"
 }
