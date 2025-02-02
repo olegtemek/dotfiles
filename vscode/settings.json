@@ -36,9 +36,6 @@
   "emmet.triggerExpansionOnTab": true,
   "diffEditor.renderMarginRevertIcon": false,
   "terminal.integrated.gpuAcceleration": "off",
-  "terminal.integrated.customGlyphs": false,
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.cursorStyleInactive": "none",
   "yaml.format.enable": false,
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": false,
@@ -59,7 +56,7 @@
   "vim.incsearch": true,
   "vim.useSystemClipboard": true,
   "vim.useCtrlKeys": true,
-  "vim.hlsearch": true,
+  "vim.hlsearch": false,
   "vim.handleKeys": {
     "<C-a>": false,
     "<C-f>": false,
