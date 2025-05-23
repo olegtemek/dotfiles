@@ -3,15 +3,14 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 export PATH=$PATH:$HOME/go/bin
-export XDG_CONFIG_HOME="$HOME/.config"
-
-alias n="nvim"
 
 ZSH_THEME="robbyrussell"
+ZSH_DISABLE_COMPFIX="true"
 
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-export OS="MacOS"
-
+fpath=(~/.docker/completions $fpath)
+autoload -Uz compinit
+compinit

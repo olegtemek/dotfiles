@@ -4,7 +4,7 @@
   "workbench.colorTheme": "oh-lucy",
   "editor.tabSize": 2,
   "editor.fontSize": 14,
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0.5,
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
   "workbench.tips.enabled": false,
