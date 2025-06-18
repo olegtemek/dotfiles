@@ -2,7 +2,9 @@
 #oh-my-zsh folder
 export ZSH="$HOME/.oh-my-zsh"
 
-export PATH=$PATH:$HOME/go/bin
+export ZSH="$HOME/.oh-my-zsh"
+export PATH="/opt/homebrew/bin:$PATH"
+export PATH="$PATH:$HOME/go/bin"
 
 ZSH_THEME="robbyrussell"
 ZSH_DISABLE_COMPFIX="true"
