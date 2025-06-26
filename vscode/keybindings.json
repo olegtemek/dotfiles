@@ -36,31 +36,6 @@
     "command": "workbench.action.openEditorAtIndex9"
   },
   {
-    "key": "ctrl+shift+i",
-    "command": "editor.action.goToImplementation",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "ctrl+shift+b",
-    "command": "workbench.action.navigateBack",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "ctrl+shift+d",
-    "command": "editor.action.goToDeclaration",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "ctrl+shift+r",
-    "command": "editor.action.goToReferences",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "ctrl+shift+h",
-    "command": "editor.action.showHover",
-    "when": "editorTextFocus"
-  },
-  {
     "key": "cmd+1",
     "command": "workbench.action.openEditorAtIndex1"
   },
@@ -97,27 +72,27 @@
     "command": "workbench.action.openEditorAtIndex9"
   },
   {
-    "key": "cmd+shift+i",
+    "key": "ctrl+alt+i",
     "command": "editor.action.goToImplementation",
     "when": "editorTextFocus"
   },
   {
-    "key": "cmd+shift+b",
+    "key": "ctrl+alt+b",
     "command": "workbench.action.navigateBack",
     "when": "editorTextFocus"
   },
   {
-    "key": "cmd+shift+d",
+    "key": "ctrl+alt+d",
     "command": "editor.action.goToDeclaration",
     "when": "editorTextFocus"
   },
   {
-    "key": "cmd+shift+r",
+    "key": "ctrl+alt+r",
     "command": "editor.action.goToReferences",
     "when": "editorTextFocus"
   },
   {
-    "key": "cmd+shift+h",
+    "key": "ctrl+alt+h",
     "command": "editor.action.showHover",
     "when": "editorTextFocus"
   }
