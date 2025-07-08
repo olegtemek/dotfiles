@@ -95,5 +95,10 @@
     "key": "ctrl+alt+h",
     "command": "editor.action.showHover",
     "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+n",
+    "command": "editor.action.rename",
+    "when": "editorTextFocus"
   }
 ]
