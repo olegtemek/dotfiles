@@ -1,0 +1,6 @@
+[user]
+	email = olegtemek@gmail.com
+	name = Oleg Alekseenko
+    
+[includeIf "gitdir:~/Documents/work/"]
+    path = ~/Documents/work/.gitconfig
