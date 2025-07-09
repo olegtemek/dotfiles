@@ -1,104 +1,97 @@
 [
   {
-    "key": "ctrl+1",
-    "command": "workbench.action.openEditorAtIndex1"
+    "key": "space t",
+    "command": "workbench.action.reopenClosedEditor",
+    "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
-    "key": "ctrl+2",
-    "command": "workbench.action.openEditorAtIndex2"
+    "key": "space s",
+    "command": "workbench.action.files.save",
+    "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
-    "key": "ctrl+3",
-    "command": "workbench.action.openEditorAtIndex3"
+    "key": "space w",
+    "command": "workbench.action.closeActiveEditor",
+    "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
-    "key": "ctrl+4",
-    "command": "workbench.action.openEditorAtIndex4"
+    "key": "space w",
+    "command": "workbench.action.closeWindow",
+    "when": "vim.mode == 'Normal' && !editorIsOpen && !multipleEditorGroups && editorTextFocus"
   },
   {
-    "key": "ctrl+5",
-    "command": "workbench.action.openEditorAtIndex5"
+    "key": "space tab",
+    "command": "workbench.action.nextEditor",
+    "when": "vim.mode == 'Normal' && !activeEditorGroupEmpty && editorTextFocus"
   },
   {
-    "key": "ctrl+6",
-    "command": "workbench.action.openEditorAtIndex6"
+    "key": "space g e",
+    "command": "editor.action.marker.next",
+    "when": "vim.mode == 'Normal' && editorFocus"
   },
   {
-    "key": "ctrl+7",
-    "command": "workbench.action.openEditorAtIndex7"
-  },
-  {
-    "key": "ctrl+8",
-    "command": "workbench.action.openEditorAtIndex8"
-  },
-  {
-    "key": "ctrl+9",
-    "command": "workbench.action.openEditorAtIndex9"
-  },
-  {
-    "key": "cmd+1",
-    "command": "workbench.action.openEditorAtIndex1"
-  },
-  {
-    "key": "cmd+2",
-    "command": "workbench.action.openEditorAtIndex2"
-  },
-  {
-    "key": "cmd+3",
-    "command": "workbench.action.openEditorAtIndex3"
-  },
-  {
-    "key": "cmd+4",
-    "command": "workbench.action.openEditorAtIndex4"
-  },
-  {
-    "key": "cmd+5",
-    "command": "workbench.action.openEditorAtIndex5"
-  },
-  {
-    "key": "cmd+6",
-    "command": "workbench.action.openEditorAtIndex6"
-  },
-  {
-    "key": "cmd+7",
-    "command": "workbench.action.openEditorAtIndex7"
-  },
-  {
-    "key": "cmd+8",
-    "command": "workbench.action.openEditorAtIndex8"
-  },
-  {
-    "key": "cmd+9",
-    "command": "workbench.action.openEditorAtIndex9"
-  },
-  {
-    "key": "ctrl+alt+i",
-    "command": "editor.action.goToImplementation",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "ctrl+alt+b",
+    "key": "space g b",
     "command": "workbench.action.navigateBack",
-    "when": "editorTextFocus"
+    "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
-    "key": "ctrl+alt+d",
-    "command": "editor.action.goToDeclaration",
-    "when": "editorTextFocus"
+    "key": "space g d",
+    "command": "editor.action.revealDefinition",
+    "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
-    "key": "ctrl+alt+r",
+    "key": "space g r",
     "command": "editor.action.goToReferences",
-    "when": "editorTextFocus"
+    "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
-    "key": "ctrl+alt+h",
-    "command": "editor.action.showHover",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "ctrl+alt+n",
+    "key": "space r n",
     "command": "editor.action.rename",
-    "when": "editorTextFocus"
+    "when": "vim.mode == 'Normal' && editorTextFocus"
+  },
+  {
+    "key": "space g h",
+    "command": "editor.action.showHover",
+    "when": "vim.mode == 'Normal' && editorTextFocus"
+  },
+  {
+    "key": "space g i",
+    "command": "editor.action.goToImplementation",
+    "when": "vim.mode == 'Normal' && editorTextFocus"
+  },
+  {
+    "key": "space f s",
+    "command": "workbench.action.findInFiles",
+    "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
+  },
+  {
+    "key": "enter",
+    "command": "list.select",
+    "when": "listFocus && !inputFocus"
+  },
+  {
+    "command": "explorer.newFile",
+    "key": "a",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "renameFile",
+    "key": "r",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "filesExplorer.copy",
+    "key": "c",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "filesExplorer.paste",
+    "key": "p",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "deleteFile",
+    "key": "d",
+    "when": "filesExplorerFocus && !inputFocus"
   }
 ]
