@@ -1,6 +1,5 @@
 {
   // GENERAL SETTINGS
-  "editor.lineNumbers": "relative",
   "workbench.colorTheme": "oh-lucy",
   "editor.tabSize": 2,
   "editor.fontSize": 14,
@@ -11,6 +10,8 @@
   "workbench.startupEditor": "none",
   "workbench.editor.enablePreview": false,
   "workbench.editor.showTabs": "multiple",
+  "workbench.editor.showIcons": false,
+  "workbench.editor.labelFormat": "medium",
   "editor.semanticHighlighting.enabled": true,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "phase",
