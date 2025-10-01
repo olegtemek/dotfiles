@@ -106,24 +106,8 @@ copy_vscode_config(){
   fi
 }
 
-
-copy_aerospace_config(){
-  if [ -d "$HOME/dotfiles" ]; then
-    # backup and clean old .aerospace.toml
-    [ -e "$HOME/.aerospace" ] && cp "$HOME/.aerospace" "$HOME/.aerospace_backup"  && rm "$HOME/.aerospace"
-    log_info ".aerospace was renamed to .aerospace_backup"
-
-    if [ "$1" = "1" ]; then
-        ln -sf "$HOME/dotfiles/aerospace/aerospace.toml" "$HOME/.aerospace.toml"
-        log_info "Make symlink .zshrc"
-    else
-        cp "$HOME/dotfiles/aerospace/aerospace.toml" "$HOME/.aerospace.toml"
-        log_info "Copy .zshrc"
-    fi
-  else
-      log_error "Folder dotfiles not found"
-      exit 1
-  fi
+copy_vscode_config(){
+    log_info "Don't remember import rectangle settings"
 }
 
 macos() {
@@ -143,7 +127,7 @@ macos() {
   # copy configs for vscode
   copy_vscode_config "$1" "$HOME/Library/Application Support/Code/User"
 
-  copy_aerospace_config "$1"
+  copy_rectangle_config
 }
 
 
