@@ -266,7 +266,7 @@
     },
     "leftHalf" : {
       "keyCode" : 123,
-      "modifierFlags" : 786432
+      "modifierFlags" : 1572864
     },
     "maximize" : {
       "keyCode" : 3,
@@ -290,7 +290,7 @@
     },
     "rightHalf" : {
       "keyCode" : 124,
-      "modifierFlags" : 786432
+      "modifierFlags" : 1572864
     },
     "toggleTodo" : {
       "keyCode" : 11,
