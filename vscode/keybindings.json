@@ -43,6 +43,16 @@
     "when": "editorHasReferenceProvider"
   },
   {
+    "key": "ctrl+h",
+    "command": "-editor.action.startFindReplaceAction",
+    "when": "editorHasReferenceProvider"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "editor.action.showHover",
+    "when": "editorHasReferenceProvider"
+  },
+  {
     "key": "shift+alt+f12",
     "command": "-references-view.findReferences",
     "when": "editorHasReferenceProvider"
@@ -93,6 +103,11 @@
   {
     "key": "shift+alt+f12",
     "command": "-references-view.findReferences",
+    "when": "editorHasReferenceProvider"
+  },
+  {
+    "key": "cmd+h",
+    "command": "editor.action.showHover",
     "when": "editorHasReferenceProvider"
   }
 ]
