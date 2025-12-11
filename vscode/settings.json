@@ -56,5 +56,7 @@
   "[github-actions-workflow]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
-  "chat.disableAIFeatures": true
+  "chat.disableAIFeatures": true,
+  // C++
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: LLVM, BreakBeforeBraces: Attach }"
 }
