@@ -4,8 +4,6 @@
   "editor.tabSize": 2,
   "editor.fontSize": 14,
   "window.zoomLevel": 0,
-  "window.commandCenter": false,
-  "workbench.layoutControl.enabled": false,
   "workbench.tips.enabled": false,
   "workbench.startupEditor": "none",
   "workbench.editor.enablePreview": false,
@@ -43,6 +41,9 @@
   "workbench.activityBar.location": "top",
   "editor.accessibilitySupport": "off",
   "explorer.compactFolders": false,
-  "go.toolsManagement.autoUpdate": true,
-  "chat.disableAIFeatures": true
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "chat.disableAIFeatures": true,
+  "claudeCode.preferredLocation": "sidebar"
 }
