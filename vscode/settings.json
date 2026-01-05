@@ -3,7 +3,7 @@
   "workbench.colorTheme": "oh-lucy",
   "editor.tabSize": 2,
   "editor.fontSize": 14,
-  "window.zoomLevel": 0.5,
+  "window.zoomLevel": 0,
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
   "workbench.tips.enabled": false,
@@ -25,6 +25,7 @@
   "editor.unicodeHighlight.nonBasicASCII": false,
   "editor.stickyScroll.enabled": true,
   "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.wordWrap": "off",
   "telemetry.telemetryLevel": "off",
   "breadcrumbs.enabled": false,
   "html.hover.references": false,
@@ -36,7 +37,6 @@
   "security.workspace.trust.enabled": false,
   "emmet.triggerExpansionOnTab": true,
   "diffEditor.renderMarginRevertIcon": false,
-  "terminal.integrated.gpuAcceleration": "off",
   "yaml.format.enable": false,
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": false,
@@ -44,19 +44,5 @@
   "editor.accessibilitySupport": "off",
   "explorer.compactFolders": false,
   "go.toolsManagement.autoUpdate": true,
-  "accessibility.signals.progress": {
-    "sound": "off"
-  },
-  "[dockercompose]": {
-    "editor.insertSpaces": true,
-    "editor.tabSize": 2,
-    "editor.autoIndent": "advanced",
-    "editor.defaultFormatter": "redhat.vscode-yaml"
-  },
-  "[github-actions-workflow]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml"
-  },
-  "chat.disableAIFeatures": true,
-  // C++
-  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: LLVM, BreakBeforeBraces: Attach }"
+  "chat.disableAIFeatures": true
 }
