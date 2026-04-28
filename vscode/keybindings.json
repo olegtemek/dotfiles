@@ -1,17 +1,113 @@
 [
   {
-    "key": "a",
-    "command": "explorer.newFile",
-    "when": "explorerViewletFocus && !inputFocus"
+    "key": "ctrl+i",
+    "command": "editor.action.goToImplementation",
+    "when": "editorHasImplementationProvider && editorTextFocus"
   },
   {
-    "key": "d",
-    "command": "deleteFile",
-    "when": "explorerViewletFocus && !inputFocus"
+    "key": "ctrl+f12",
+    "command": "-editor.action.goToImplementation",
+    "when": "editorHasImplementationProvider && editorTextFocus"
   },
   {
-    "key": "r",
-    "command": "renameFile",
-    "when": "explorerViewletFocus && !inputFocus"
+    "key": "ctrl+d",
+    "command": "editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus"
+  },
+  {
+    "key": "f12",
+    "command": "-editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "workbench.action.navigateBack",
+    "when": "canNavigateBack"
+  },
+  {
+    "key": "ctrl+-",
+    "command": "-workbench.action.navigateBack",
+    "when": "canNavigateBack"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "references-view.findReferences",
+    "when": "editorHasReferenceProvider"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "-editor.action.startFindReplaceAction",
+    "when": "editorHasReferenceProvider"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "editor.action.showHover",
+    "when": "editorHasReferenceProvider"
+  },
+  {
+    "key": "shift+alt+f12",
+    "command": "-references-view.findReferences",
+    "when": "editorHasReferenceProvider"
+  },
+  {
+    "key": "cmd+i",
+    "command": "editor.action.goToImplementation",
+    "when": "editorHasImplementationProvider && editorTextFocus"
+  },
+  {
+    "key": "cmd+f12",
+    "command": "-editor.action.goToImplementation",
+    "when": "editorHasImplementationProvider && editorTextFocus"
+  },
+  {
+    "key": "cmd+d",
+    "command": "editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus"
+  },
+  {
+    "key": "f12",
+    "command": "-editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus"
+  },
+  {
+    "key": "cmd+b",
+    "command": "workbench.action.navigateBack",
+    "when": "canNavigateBack"
+  },
+  {
+    "key": "ctrl+-",
+    "command": "-workbench.action.navigateBack",
+    "when": "canNavigateBack"
+  },
+  {
+    "key": "cmd+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "cmd+r",
+    "command": "references-view.findReferences",
+    "when": "editorHasReferenceProvider"
+  },
+  {
+    "key": "shift+alt+f12",
+    "command": "-references-view.findReferences",
+    "when": "editorHasReferenceProvider"
+  },
+  {
+    "key": "cmd+h",
+    "command": "editor.action.showHover",
+    "when": "editorHasReferenceProvider"
+  },
+  {
+    "key": "shift+enter",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+      "text": "\u001b\r"
+    },
+    "when": "terminalFocus"
   }
 ]
