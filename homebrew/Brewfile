@@ -23,8 +23,6 @@ cask "insomnia"
 cask "obsidian"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
-# Music streaming service
-cask "spotify"
 # Messaging app with a focus on speed and security
 cask "telegram"
 # Open-source code editor
