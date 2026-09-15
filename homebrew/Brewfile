@@ -1,40 +1,39 @@
-tap "felixkratz/formulae"
-tap "nikitabobko/tap"
-brew "awscli"
+# Open source programming language to build simple/reliable/efficient software
 brew "go"
-brew "golangci-lint"
-brew "node"
-brew "pkgconf"
-brew "rclone"
-brew "sevenzip"
-brew "telnet"
+# Application uninstaller
 cask "appcleaner"
+# Desktop password and login vault
 cask "bitwarden"
+# Terminal-based AI coding assistant
 cask "claude-code"
+# Universal database tool and SQL client
 cask "dbeaver-community"
+# Voice and text chat software
 cask "discord"
+# App to build and share containerised applications and microservices
 cask "docker-desktop"
 cask "font-jetbrains-mono"
+# Cross-platform Git credential storage for multiple hosting providers
 cask "git-credential-manager"
+# Menu bar application that displays the CPU speed limit due to thermal issues
 cask "hot"
+# HTTP and GraphQL Client
 cask "insomnia"
-cask "libreoffice"
+# Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
-cask "qbittorrent"
+# Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# Music streaming service
 cask "spotify"
+# Messaging app with a focus on speed and security
 cask "telegram"
+# Open-source code editor
 cask "visual-studio-code"
 vscode "dunstontc.vscode-go-syntax"
-vscode "github.copilot-chat"
 vscode "golang.go"
 vscode "hermitter.oh-lucy-vscode"
 vscode "humao.rest-client"
-vscode "ms-vscode.cpptools"
-vscode "platformio.platformio-ide"
 go "github.com/go-delve/delve/cmd/dlv"
 go "github.com/haya14busa/goplay/cmd/goplay"
 go "golang.org/x/tools/gopls"
-go "github.com/cweill/gotests/gotests"
 go "github.com/josharian/impl"
-go "honnef.co/go/tools/cmd/staticcheck"

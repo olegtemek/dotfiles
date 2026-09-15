@@ -40,12 +40,9 @@ check_and_install_homebrew() {
       log_info "Installing Homebrew..."
       /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
       
-      if [[ $(uname -m) == "arm64" ]]; then
+        if [[ $(uname -m) == "arm64" ]]; then
             # Apple Silicon Mac
             eval "$(/opt/homebrew/bin/brew shellenv)"
-        else
-            # Intel Mac
-            eval "$(/usr/local/bin/brew shellenv)"
         fi
 
       log_info "Homebrew installed successfully"
