@@ -94,7 +94,7 @@ copy_vscode_config(){
         log_info "Make symlink settings.json and keybindings.json"
     else
         cp "$HOME/dotfiles/vscode/settings.json" "$DIR/settings.json"
-        ln "$HOME/dotfiles/vscode/keybindings.json" "$DIR/keybindings.json"
+        cp "$HOME/dotfiles/vscode/keybindings.json" "$DIR/keybindings.json"
         log_info "Copy settings.json and keybindings.json"
     fi
   else
@@ -103,7 +103,7 @@ copy_vscode_config(){
   fi
 }
 
-copy_vscode_config(){
+copy_rectangle_config(){
     log_info "Don't remember import rectangle settings"
 }
 
