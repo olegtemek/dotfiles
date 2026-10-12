@@ -1,24 +1,34 @@
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
+# SOund eXchange: universal sound sample translator
+brew "sox"
+# Extremely fast Python package installer and resolver, written in Rust
+brew "uv"
 # Application uninstaller
 cask "appcleaner"
 # Desktop password and login vault
 cask "bitwarden"
+# Utility that prevents the system from going to sleep
+cask "caffeine"
 # Terminal-based AI coding assistant
-cask "claude-code"
+cask "claude-code@latest"
 # Universal database tool and SQL client
 cask "dbeaver-community"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
+# Collaborative team software
+cask "figma"
 cask "font-jetbrains-mono"
 # Cross-platform Git credential storage for multiple hosting providers
 cask "git-credential-manager"
-# Menu bar application that displays the CPU speed limit due to thermal issues
-cask "hot"
 # HTTP and GraphQL Client
 cask "insomnia"
+# Smooths scrolling and set mouse scroll directions independently
+cask "mos"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # Move and resize windows using keyboard shortcuts or snap areas
